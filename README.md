@@ -13,7 +13,6 @@ https://www.nintendo.com/us/amiibo/
 
 TODO: Add NFC Support
 
-![Amiibo View](https://raw.githubusercontent.com/remotelxszk/iAmii/main/Screenshots/AmiiboView.png)
-![Series Collection View](https://raw.githubusercontent.com/remotelxszk/iAmii/main/Screenshots/CollectionView.png)
+![Three Different App Screenshots](https://raw.githubusercontent.com/remotelxszk/iAmii/main/Screenshots/AppScreenshots.png)
 
 
