@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B41171F72B0017490090E350 /* ConsoleEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41171F62B0017490090E350 /* ConsoleEnum.swift */; };
+		B41171F92B0163090090E350 /* UsageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41171F82B0163090090E350 /* UsageModel.swift */; };
+		B41171FB2B0172D70090E350 /* GameUsageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41171FA2B0172D70090E350 /* GameUsageViewModel.swift */; };
+		B484B01E2AF8481600F2DC59 /* GameUsageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B484B01D2AF8481600F2DC59 /* GameUsageView.swift */; };
+		B488D67C2AE43E4E00A7F9D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B488D67B2AE43E4E00A7F9D8 /* AppDelegate.swift */; };
+		B488D6852AE43E5000A7F9D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B488D6842AE43E5000A7F9D8 /* Assets.xcassets */; };
+		B488D6882AE43E5000A7F9D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B488D6862AE43E5000A7F9D8 /* LaunchScreen.storyboard */; };
+		B488D6972AE43F7800A7F9D8 /* ListSeriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B488D6962AE43F7800A7F9D8 /* ListSeriesViewModel.swift */; };
+		B488D6992AE43F8700A7F9D8 /* ListSeriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B488D6982AE43F8700A7F9D8 /* ListSeriesView.swift */; };
+		B488D69B2AE43F9900A7F9D8 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B488D69A2AE43F9900A7F9D8 /* NetworkService.swift */; };
+		B488D69D2AE43FFF00A7F9D8 /* SeriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B488D69C2AE43FFF00A7F9D8 /* SeriesModel.swift */; };
+		B488D6BF2AE4452A00A7F9D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B488D6BE2AE4452A00A7F9D8 /* SceneDelegate.swift */; };
+		B488D6C12AE454FA00A7F9D8 /* AmiiboModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B488D6C02AE454FA00A7F9D8 /* AmiiboModel.swift */; };
+		B488D6C42AE45A2900A7F9D8 /* SeriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B488D6C32AE45A2900A7F9D8 /* SeriesView.swift */; };
+		B488D6C62AE45A3700A7F9D8 /* SeriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B488D6C52AE45A3700A7F9D8 /* SeriesViewModel.swift */; };
+		B4D31BE82AF2ADD100972272 /* AmiiboView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D31BE72AF2ADD100972272 /* AmiiboView.swift */; };
+		B4D31BEA2AF2ADE500972272 /* AmiiboViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D31BE92AF2ADE500972272 /* AmiiboViewModel.swift */; };
+		B4D31BEC2AF2B1EE00972272 /* SeriesViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D31BEB2AF2B1EE00972272 /* SeriesViewCell.swift */; };
+		B4EC5DCF2AF4278900F88771 /* PreviewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EC5DCE2AF4278900F88771 /* PreviewModels.swift */; };
+		B4EC5DD22AF6A57C00F88771 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EC5DD12AF6A57C00F88771 /* Assets.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B41171F62B0017490090E350 /* ConsoleEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleEnum.swift; sourceTree = "<group>"; };
+		B41171F82B0163090090E350 /* UsageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageModel.swift; sourceTree = "<group>"; };
+		B41171FA2B0172D70090E350 /* GameUsageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameUsageViewModel.swift; sourceTree = "<group>"; };
+		B484B01D2AF8481600F2DC59 /* GameUsageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameUsageView.swift; sourceTree = "<group>"; };
+		B488D6782AE43E4E00A7F9D8 /* iAmii.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iAmii.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B488D67B2AE43E4E00A7F9D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B488D6842AE43E5000A7F9D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B488D6872AE43E5000A7F9D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B488D6892AE43E5000A7F9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B488D6962AE43F7800A7F9D8 /* ListSeriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSeriesViewModel.swift; sourceTree = "<group>"; };
+		B488D6982AE43F8700A7F9D8 /* ListSeriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSeriesView.swift; sourceTree = "<group>"; };
+		B488D69A2AE43F9900A7F9D8 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		B488D69C2AE43FFF00A7F9D8 /* SeriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesModel.swift; sourceTree = "<group>"; };
+		B488D6BE2AE4452A00A7F9D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B488D6C02AE454FA00A7F9D8 /* AmiiboModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiiboModel.swift; sourceTree = "<group>"; };
+		B488D6C32AE45A2900A7F9D8 /* SeriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesView.swift; sourceTree = "<group>"; };
+		B488D6C52AE45A3700A7F9D8 /* SeriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesViewModel.swift; sourceTree = "<group>"; };
+		B4D31BE72AF2ADD100972272 /* AmiiboView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiiboView.swift; sourceTree = "<group>"; };
+		B4D31BE92AF2ADE500972272 /* AmiiboViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiiboViewModel.swift; sourceTree = "<group>"; };
+		B4D31BEB2AF2B1EE00972272 /* SeriesViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesViewCell.swift; sourceTree = "<group>"; };
+		B4EC5DCE2AF4278900F88771 /* PreviewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewModels.swift; sourceTree = "<group>"; };
+		B4EC5DD12AF6A57C00F88771 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B488D6752AE43E4E00A7F9D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B484B01C2AF847FE00F2DC59 /* GameUsageView */ = {
+			isa = PBXGroup;
+			children = (
+				B484B01D2AF8481600F2DC59 /* GameUsageView.swift */,
+				B41171FA2B0172D70090E350 /* GameUsageViewModel.swift */,
+			);
+			path = GameUsageView;
+			sourceTree = "<group>";
+		};
+		B488D66F2AE43E4E00A7F9D8 = {
+			isa = PBXGroup;
+			children = (
+				B488D67A2AE43E4E00A7F9D8 /* iAmii */,
+				B488D6792AE43E4E00A7F9D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B488D6792AE43E4E00A7F9D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B488D6782AE43E4E00A7F9D8 /* iAmii.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B488D67A2AE43E4E00A7F9D8 /* iAmii */ = {
+			isa = PBXGroup;
+			children = (
+				B4EC5DD02AF427B900F88771 /* PreviewModels */,
+				B488D68F2AE43E7000A7F9D8 /* Models */,
+				B488D6922AE43E8C00A7F9D8 /* Resources */,
+				B488D6912AE43E8600A7F9D8 /* Services */,
+				B488D6902AE43E8000A7F9D8 /* Views */,
+				B488D67B2AE43E4E00A7F9D8 /* AppDelegate.swift */,
+				B488D6892AE43E5000A7F9D8 /* Info.plist */,
+				B488D6BE2AE4452A00A7F9D8 /* SceneDelegate.swift */,
+			);
+			path = iAmii;
+			sourceTree = "<group>";
+		};
+		B488D68F2AE43E7000A7F9D8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B488D69C2AE43FFF00A7F9D8 /* SeriesModel.swift */,
+				B488D6C02AE454FA00A7F9D8 /* AmiiboModel.swift */,
+				B41171F82B0163090090E350 /* UsageModel.swift */,
+				B41171F62B0017490090E350 /* ConsoleEnum.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B488D6902AE43E8000A7F9D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B484B01C2AF847FE00F2DC59 /* GameUsageView */,
+				B4D31BE62AF2ADBE00972272 /* AmiiboView */,
+				B488D6C22AE45A0D00A7F9D8 /* SeriesView */,
+				B488D6932AE43F4B00A7F9D8 /* ListSeriesView */,
+				B488D6862AE43E5000A7F9D8 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B488D6912AE43E8600A7F9D8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B488D69A2AE43F9900A7F9D8 /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B488D6922AE43E8C00A7F9D8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B488D6842AE43E5000A7F9D8 /* Assets.xcassets */,
+				B4EC5DD12AF6A57C00F88771 /* Assets.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B488D6932AE43F4B00A7F9D8 /* ListSeriesView */ = {
+			isa = PBXGroup;
+			children = (
+				B488D6982AE43F8700A7F9D8 /* ListSeriesView.swift */,
+				B488D6962AE43F7800A7F9D8 /* ListSeriesViewModel.swift */,
+			);
+			path = ListSeriesView;
+			sourceTree = "<group>";
+		};
+		B488D6C22AE45A0D00A7F9D8 /* SeriesView */ = {
+			isa = PBXGroup;
+			children = (
+				B488D6C32AE45A2900A7F9D8 /* SeriesView.swift */,
+				B488D6C52AE45A3700A7F9D8 /* SeriesViewModel.swift */,
+				B4D31BEB2AF2B1EE00972272 /* SeriesViewCell.swift */,
+			);
+			path = SeriesView;
+			sourceTree = "<group>";
+		};
+		B4D31BE62AF2ADBE00972272 /* AmiiboView */ = {
+			isa = PBXGroup;
+			children = (
+				B4D31BE72AF2ADD100972272 /* AmiiboView.swift */,
+				B4D31BE92AF2ADE500972272 /* AmiiboViewModel.swift */,
+			);
+			path = AmiiboView;
+			sourceTree = "<group>";
+		};
+		B4EC5DD02AF427B900F88771 /* PreviewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B4EC5DCE2AF4278900F88771 /* PreviewModels.swift */,
+			);
+			path = PreviewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B488D6772AE43E4E00A7F9D8 /* iAmii */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B488D68C2AE43E5000A7F9D8 /* Build configuration list for PBXNativeTarget "iAmii" */;
+			buildPhases = (
+				B488D6742AE43E4E00A7F9D8 /* Sources */,
+				B488D6752AE43E4E00A7F9D8 /* Frameworks */,
+				B488D6762AE43E4E00A7F9D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iAmii;
+			productName = iAmii;
+			productReference = B488D6782AE43E4E00A7F9D8 /* iAmii.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B488D6702AE43E4E00A7F9D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					B488D6772AE43E4E00A7F9D8 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = B488D6732AE43E4E00A7F9D8 /* Build configuration list for PBXProject "iAmii" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B488D66F2AE43E4E00A7F9D8;
+			productRefGroup = B488D6792AE43E4E00A7F9D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B488D6772AE43E4E00A7F9D8 /* iAmii */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B488D6762AE43E4E00A7F9D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B488D6882AE43E5000A7F9D8 /* LaunchScreen.storyboard in Resources */,
+				B488D6852AE43E5000A7F9D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B488D6742AE43E4E00A7F9D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B488D69B2AE43F9900A7F9D8 /* NetworkService.swift in Sources */,
+				B4D31BEC2AF2B1EE00972272 /* SeriesViewCell.swift in Sources */,
+				B41171FB2B0172D70090E350 /* GameUsageViewModel.swift in Sources */,
+				B4D31BEA2AF2ADE500972272 /* AmiiboViewModel.swift in Sources */,
+				B488D6BF2AE4452A00A7F9D8 /* SceneDelegate.swift in Sources */,
+				B4EC5DCF2AF4278900F88771 /* PreviewModels.swift in Sources */,
+				B488D6C42AE45A2900A7F9D8 /* SeriesView.swift in Sources */,
+				B4D31BE82AF2ADD100972272 /* AmiiboView.swift in Sources */,
+				B41171F92B0163090090E350 /* UsageModel.swift in Sources */,
+				B488D6972AE43F7800A7F9D8 /* ListSeriesViewModel.swift in Sources */,
+				B4EC5DD22AF6A57C00F88771 /* Assets.swift in Sources */,
+				B41171F72B0017490090E350 /* ConsoleEnum.swift in Sources */,
+				B488D69D2AE43FFF00A7F9D8 /* SeriesModel.swift in Sources */,
+				B488D6992AE43F8700A7F9D8 /* ListSeriesView.swift in Sources */,
+				B488D67C2AE43E4E00A7F9D8 /* AppDelegate.swift in Sources */,
+				B488D6C62AE45A3700A7F9D8 /* SeriesViewModel.swift in Sources */,
+				B488D6C12AE454FA00A7F9D8 /* AmiiboModel.swift in Sources */,
+				B484B01E2AF8481600F2DC59 /* GameUsageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B488D6862AE43E5000A7F9D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B488D6872AE43E5000A7F9D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B488D68A2AE43E5000A7F9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B488D68B2AE43E5000A7F9D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B488D68D2AE43E5000A7F9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3XWRFVFAF9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iAmii/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.remotelxszk.iAmii;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B488D68E2AE43E5000A7F9D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3XWRFVFAF9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iAmii/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.remotelxszk.iAmii;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B488D6732AE43E4E00A7F9D8 /* Build configuration list for PBXProject "iAmii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B488D68A2AE43E5000A7F9D8 /* Debug */,
+				B488D68B2AE43E5000A7F9D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B488D68C2AE43E5000A7F9D8 /* Build configuration list for PBXNativeTarget "iAmii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B488D68D2AE43E5000A7F9D8 /* Debug */,
+				B488D68E2AE43E5000A7F9D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B488D6702AE43E4E00A7F9D8 /* Project object */;
+}
